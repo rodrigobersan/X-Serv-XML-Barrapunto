@@ -1,0 +1,7 @@
+  <h3>Listado de los titulares de barrapunto:</h3>
+  <ul>
+    {% for i in titles|length %}
+      <li><a href ="{{ links[i] }}"> {{ titles[i] }}</a></li>
+    {% endfor %}
+  </ul>
+</body></html>
